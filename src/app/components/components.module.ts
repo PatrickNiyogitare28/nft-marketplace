@@ -6,6 +6,9 @@ import { BannerComponent } from './home/banner/banner.component';
 import { TopSellersComponent } from './home/top-sellers/top-sellers.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { HotBidsComponent } from './home/hot-bids/hot-bids.component';
+import { ButtonComponent } from './elements/button/button.component';
+import { FooterComponent } from './footer/footer.component';
+import { CopyrightComponent } from './copyright/copyright.component';
 
 
 
@@ -14,7 +17,10 @@ import { HotBidsComponent } from './home/hot-bids/hot-bids.component';
     AppNavComponent,
     BannerComponent,
     TopSellersComponent,
-    HotBidsComponent
+    HotBidsComponent,
+    ButtonComponent,
+    FooterComponent,
+    CopyrightComponent
   ],
   imports: [
     CommonModule,
@@ -25,7 +31,10 @@ import { HotBidsComponent } from './home/hot-bids/hot-bids.component';
     AppNavComponent,
     BannerComponent,
     TopSellersComponent,
-    HotBidsComponent
+    HotBidsComponent,
+    ButtonComponent,
+    FooterComponent,
+    CopyrightComponent
   ]
 })
 export class ComponentsModule { }
