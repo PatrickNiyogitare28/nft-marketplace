@@ -1,0 +1,25 @@
+<div class="mt-10">
+    <h3 class="text-white">Top Sellers</h3>
+
+    <div class="mt-4">
+        <carousel>
+                <div class="carousel-cell bg-black1 ml-[3em] rounded-xl" *ngFor="let seller of sellers; let i=index">
+                    <div class="p-1 w-[20px] h-[20px] flex items-center justify-around rounded-full bg-primaryColor m-2">
+                      <label class="text-white mt-2 text-[11px]">{{i+1}}</label>
+                     </div>
+                     <div class="w-[100%]  h-[100px] flex justify-around items-center ">
+                         <div>
+                             <img src="../../../../assets/images/avatar-{{seller.avatarIndex}}.png" alt="avatar" class="rounded-full" />
+                         </div>
+                     </div>
+                     <div class="w-[15px] ml-[60%] -mt-[1.5em]">
+                         <img src="../../../../assets/icons/checked-icon.png" class="w-[5px]" alt="verified" />
+                     </div>
+                     <div class="w-full flex flex-col justify-around items-center mt-2">
+                         <label class="text-white text-[12px] mt-2">{{seller.name}}</label>
+                         <label class="text-white text-[11px] mt-2">5.250 <span class="text-gray-500">ETH</span></label>
+                     </div>
+            </div>
+        </carousel>
+    </div>
+</div>
