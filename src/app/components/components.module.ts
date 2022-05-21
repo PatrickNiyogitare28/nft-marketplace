@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { BannerComponent } from './home/banner/banner.component';
 import { TopSellersComponent } from './home/top-sellers/top-sellers.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+import { HotBidsComponent } from './home/hot-bids/hot-bids.component';
 
 
 
@@ -12,7 +13,8 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
   declarations: [
     AppNavComponent,
     BannerComponent,
-    TopSellersComponent
+    TopSellersComponent,
+    HotBidsComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +24,8 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
   exports: [
     AppNavComponent,
     BannerComponent,
-    TopSellersComponent
+    TopSellersComponent,
+    HotBidsComponent
   ]
 })
 export class ComponentsModule { }
