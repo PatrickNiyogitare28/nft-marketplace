@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { ViewsModule } from './views/views.module';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ViewsModule } from './views/views.module';
     BrowserModule,
     AppRoutingModule,
     ViewsModule,
-    ComponentsModule
+    ComponentsModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
