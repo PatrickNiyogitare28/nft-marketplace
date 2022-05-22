@@ -1,27 +1,43 @@
-# NftMarketplace
+# NFT Market Place | Crypto Ket
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+An NFT market place app for nft transactions built on top of [Angular 13.3.9](https://blog.angular.io/angular-v13-is-now-available-cce66f7bc296)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting the app live
 
-## Code scaffolding
+- clone the app
+- dependency installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+yarn 
 
-## Build
+```sh
+$ yarn install
+# npm run install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Running the app
 
-## Running unit tests
+You need an Angular CLI to get the app compiling smoothly
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+$ ng serve
+# yarn start
+# npm run start
+```
 
-## Running end-to-end tests
+## Live demo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+View [the app live on verce](https://nft-marketplace-com.vercel.app/)
 
-## Further help
+## LICENSE 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This work is [MIT Licensed](https://github.com/PatrickNiyogitare28/nft-marketplace/blob/master/LICENSE)
+
+## Maintainer
+
+This is made with ♥️ by [Patrick Niyogitare](https://twitter.com/niyogitare)
+
+Shoot me an email at patrickniyogitare28@gmail.com 
+
+Lead my articles on [code-ark](http://codeark-com.vercel.app/)
+
