@@ -6,8 +6,8 @@
             <div class="flex flex-col items-center justify-around">
                 <img src="../../../../assets/images/hot-bid-{{i+1}}.png" alt="hot-bid" class="rounded-xl">
             </div>
-            <div class="p-3">
-                <label class="text-white text-[11px]">{{bid.name}}</label>
+            <div class="p-3 cursor-pointer" routerLink="/item">
+                <label class="text-white text-[11px]" >{{bid.name}}</label>
             </div>
             <div class="p-3 flex justify-between items-center">
                 <label class="text-white text-[11px]">{{bid.eths}} ETH</label>
